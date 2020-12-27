@@ -10,8 +10,8 @@ class Home extends CI_Controller
     }
     public function index()
     {
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
@@ -24,8 +24,8 @@ class Home extends CI_Controller
     }
     public function lagosdejarinu()
     {
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['lagosdejarinu'] = 'active';
         $conteudo['pagina_view'] = 'lagosdejarinu_view';
@@ -38,8 +38,8 @@ class Home extends CI_Controller
     }
     public function cidadejardim()
     {
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['cidadejardim'] = 'active';
         $conteudo['pagina_view'] = 'cidadejardim_view';
@@ -52,8 +52,8 @@ class Home extends CI_Controller
     }
     public function terrasdesantacruz()
     {
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['terrasdesantacruz'] = 'active';
         $conteudo['pagina_view'] = 'terrasdesantacruz_view';

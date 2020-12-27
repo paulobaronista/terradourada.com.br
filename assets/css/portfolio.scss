@@ -1,0 +1,128 @@
+.portfolio {
+    padding-top: 83px;
+    padding-bottom: 73px;
+
+    h6 {
+        font-size: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        color: #7d6b3f;
+        margin: 0 0 20px 0;
+    }
+
+    .media-body {
+        vertical-align: middle;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 600;
+        color: #391f1b;
+        text-transform: uppercase;
+        margin: 5px 0 0 0;
+    }
+
+    a {
+        font-size: 13px;
+        line-height: 13x;
+        font-weight: 500;
+        background-color: #7d6b3f;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 5px 8px;
+        margin: 5px 0 0 0;
+        display: table;
+    }
+
+    .box {
+        margin-bottom: 20px;
+
+        .media {
+            margin-top: 10px;
+        }
+
+        .cidade {
+            .media-object {
+                width: 150px;
+                height: 88px;
+            }
+        }
+
+        .terras {
+            .media-object {
+                width: 132px;
+                height: 101px;
+            }
+        }
+
+        .lagos {
+            .media-object {
+                width: 109px;
+                height: 108px;
+            }
+        }
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .portfolio {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        h6 {
+            font-size: 20px;
+            line-height: 20px;
+            margin: 0 0 10px 0;
+        }
+
+        p {
+            font-size: 10px;
+            line-height: 12px;
+            margin: 5px 0 0 0;
+        }
+
+        a {
+            font-size: 10px;
+            line-height: 10x;
+            padding: 5px 8px;
+            margin: 5px 0 0 0;
+        }
+
+        .box {
+            margin-bottom: 10px;
+
+            .cidade {
+                .media-object {
+                    width: 100px;
+                    height: 59px;
+                }
+            }
+
+            .terras {
+                .media-object {
+                    width: 100px;
+                    height: 77px;
+                }
+            }
+
+            .lagos {
+                .media-object {
+                    width: 100px;
+                    height: 99px;
+                }
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

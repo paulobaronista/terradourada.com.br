@@ -1,0 +1,30 @@
+footer {
+    margin-top: 20px;
+    .container {
+        border-top: solid 1px #7d6b3f;
+    }
+    p {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 15px;
+        color: #7d6b3f;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        a {
+            color: #7d6b3f; 
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

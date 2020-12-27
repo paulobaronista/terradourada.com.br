@@ -7,8 +7,8 @@ class Contato extends CI_Controller{
         parent::__construct();
     }
     public function index(){
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
@@ -18,15 +18,15 @@ class Contato extends CI_Controller{
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.landingpagemodelo.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.terradourada.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@landingpagemodelo.com.br","$nome"); 
-            $this->email->to('contato@landingpagemodelo.com.br');
-            $this->email->cc('landingpagemodelo.com, paulobaronista@gmail.com');
+            $this->email->from("contato@terradourada.com.br","$nome"); 
+            $this->email->to('contato@terradourada.com.br');
+            $this->email->cc('paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -53,8 +53,8 @@ class Contato extends CI_Controller{
     }
 
     public function obrigado(){
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
@@ -67,8 +67,8 @@ class Contato extends CI_Controller{
     }
 
     public function fail(){
-        $data['title'] = 'Terra Dourada';
-        $data['description'] = '';
+        $data['title'] = 'Terra Dourada Incorporações';
+        $data['description'] = 'Construindo sonhos. Entregando conquistas.';
         $data['keywords'] = '';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';

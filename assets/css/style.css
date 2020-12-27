@@ -1,58 +1,1081 @@
-/* Extra Small */
-@media(max-width:767px){}
-
-/* Small */
-@media(min-width:768px) and (max-width:991px){}
-
-/* Medium */
-@media(min-width:992px) and (max-width:1199px){}
-
-/* Large */
-@media(min-width:1200px){}
-
-.margin-top { margin-top: 10px; }
-.margin-top-5 { margin-top: 5px; }
-.margin-top-15 { margin-top: 15px; }
-.margin-top-20 { margin-top: 20px; }
-.margin-top-27 { margin-top: 27px; }
-.margin-top-30 { margin-top: 30px; }
-.margin-top-40 { margin-top: 40px; }
-.margin-top-50 { margin-top: 50px; }
-.margin-top-54 { margin-top: 54px; }
-.margin-top-60 { margin-top: 60px; }
-.margin-top-65 { margin-top: 65px; }
-.margin-top-70 { margin-top: 70px; }
-.margin-top-80 { margin-top: 80px; }
-.margin-top-90 { margin-top: 90px; }
-.margin-top-99 { margin-top: 99px; }
-.margin-top-100 { margin-top: 100px; }
-.margin-top-110 { margin-top: 110px; }
-.margin-top-120 { margin-top: 120px; }
-.margin-top-140 { margin-top: 140px; }
-.margin-top-149 { margin-top: 149px; }
-.margin-top-150 { margin-top: 150px; }
-.margin-top-160 { margin-top: 160px; }
-.margin-top-200 { margin-top: 200px; }
-.margin-top-220 { margin-top: 220px; }
-.margin-top-230 { margin-top: 230px; }
-.margin-top-250 { margin-top: 250px; }
-.margin-top-330 { margin-top: 330px; }
-.margin-top-350 { margin-top: 350px; }
-.margin-top-380 { margin-top: 380px; }
-.margin-top-385 { margin-top: 385px; }
-.margin-top-390 { margin-top: 390px; }
-.margin-top-400 { margin-top: 400px; }
-.padding-off {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+.margin-top {
+  margin-top: 10px;
 }
-p { margin: 0; }
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-27 {
+  margin-top: 27px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-54 {
+  margin-top: 54px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+.margin-top-65 {
+  margin-top: 65px;
+}
+
+.margin-top-70 {
+  margin-top: 70px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+.margin-top-90 {
+  margin-top: 90px;
+}
+
+.margin-top-99 {
+  margin-top: 99px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-top-110 {
+  margin-top: 110px;
+}
+
+.margin-top-120 {
+  margin-top: 120px;
+}
+
+.margin-top-140 {
+  margin-top: 140px;
+}
+
+.margin-top-149 {
+  margin-top: 149px;
+}
+
+.margin-top-150 {
+  margin-top: 150px;
+}
+
+.margin-top-160 {
+  margin-top: 160px;
+}
+
+.margin-top-200 {
+  margin-top: 200px;
+}
+
+.margin-top-220 {
+  margin-top: 220px;
+}
+
+.margin-top-230 {
+  margin-top: 230px;
+}
+
+.margin-top-250 {
+  margin-top: 250px;
+}
+
+.margin-top-330 {
+  margin-top: 330px;
+}
+
+.margin-top-350 {
+  margin-top: 350px;
+}
+
+.margin-top-380 {
+  margin-top: 380px;
+}
+
+.margin-top-385 {
+  margin-top: 385px;
+}
+
+.margin-top-390 {
+  margin-top: 390px;
+}
+
+.margin-top-400 {
+  margin-top: 400px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.padding-off {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+p {
+  margin: 0;
+}
 
 .container-off-padding {
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
 .row-off-margin {
-    margin-left: 0px;
-    margin-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+
+.aviso {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+.aviso div {
+  display: table;
+  margin: 10% auto 0;
+  width: 40%;
+  background-color: #7d6b3f;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.aviso div .close {
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: -35px;
+  z-index: 999;
+  color: #fff;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.aviso div p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.667;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .aviso div {
+    margin: 30% auto 0;
+    width: 95%;
+  }
+  .padding-off-mobile {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.menu {
+  width: 100%;
+  background-color: #fff;
+  border-color: transparent;
+  border-radius: 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+  z-index: 500;
+}
+
+.menu .nav > li > a {
+  padding: 27px 10px;
+}
+
+.menu .navbar-brand {
+  height: auto;
+  padding: 5px 5px;
+}
+
+.menu .navbar-nav > li > a {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 600;
+  color: #8a8a8a;
+  text-transform: uppercase;
+}
+
+.menu .navbar-nav > li > a::before {
+  content: "|";
+  position: absolute;
+  right: -3px;
+  top: 26px;
+  color: #391f1b;
+}
+
+.menu .navbar-nav > li:last-child a::before {
+  content: "";
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .menu .nav > li > a {
+    padding: 10px 0px;
+  }
+  .menu .navbar-brand {
+    padding: 10px 0 7px;
+  }
+  .menu .navbar-brand img {
+    max-width: 60%;
+  }
+  .menu .navbar-nav > li > a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .menu .navbar-nav > li > a::before {
+    content: "";
+  }
+  .menu .navbar-toggle {
+    margin-top: 13px;
+    margin-right: 5px;
+    border-color: #8a8a8a;
+  }
+  .menu .navbar-toggle .icon-bar {
+    background-color: #8a8a8a;
+  }
+  .menu .navbar-toggle:focus,
+  .menu .navbar-toggle:hover {
+    background-color: #fff;
+  }
+  .menu .navbar-collapse,
+  .menu .navbar-form {
+    border-color: transparent;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu .nav > li > a {
+    padding: 30px 10px;
+  }
+  .menu .navbar-brand {
+    padding: 10px 5px;
+  }
+  .menu .navbar-brand img {
+    max-width: 80%;
+  }
+  .menu .navbar-nav > li > a {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .menu .navbar-nav > li > a::before {
+    content: "|";
+    position: absolute;
+    right: -2px;
+    top: 30px;
+  }
+}
+
+/* Medium */
+/* Large */
+.home {
+  padding-top: 73px;
+}
+
+.home-texto {
+  padding-top: 83px;
+  padding-bottom: 83px;
+  margin-top: -5px;
+  background-color: #eae9de;
+}
+
+.home-texto h6 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #7d6b3f;
+  letter-spacing: 2px;
+  margin: 0 0 0 0;
+}
+
+.home-texto p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #7d6b3f;
+  margin: 15px 0 0 0;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    padding-top: 61px;
+  }
+  .home-texto {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .home-texto h6 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .home-texto p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 7px 0 0 0;
+    text-align: justify;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .home {
+    padding-top: 78px;
+  }
+}
+
+/* Medium */
+/* Large */
+.lancamento {
+  padding-top: 83px;
+  padding-bottom: 83px;
+  background-color: #391f1b;
+}
+
+.lancamento h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+
+.lancamento p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+}
+
+.lancamento a {
+  font-size: 15px;
+  line-height: 15x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 5px 0 0 0;
+  display: table;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .lancamento {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .lancamento h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .lancamento p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0 0;
+  }
+  .lancamento a {
+    font-size: 14px;
+    line-height: 14x;
+    margin: 15px 0 0 0;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.portfolio {
+  padding-top: 83px;
+  padding-bottom: 73px;
+}
+
+.portfolio h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #7d6b3f;
+  margin: 0 0 20px 0;
+}
+
+.portfolio .media-body {
+  vertical-align: middle;
+}
+
+.portfolio p {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+  color: #391f1b;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+}
+
+.portfolio a {
+  font-size: 13px;
+  line-height: 13x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 5px 0 0 0;
+  display: table;
+}
+
+.portfolio .box {
+  margin-bottom: 20px;
+}
+
+.portfolio .box .media {
+  margin-top: 10px;
+}
+
+.portfolio .box .cidade .media-object {
+  width: 150px;
+  height: 88px;
+}
+
+.portfolio .box .terras .media-object {
+  width: 132px;
+  height: 101px;
+}
+
+.portfolio .box .lagos .media-object {
+  width: 109px;
+  height: 108px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .portfolio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .portfolio h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .portfolio p {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 5px 0 0 0;
+  }
+  .portfolio a {
+    font-size: 10px;
+    line-height: 10x;
+    padding: 5px 8px;
+    margin: 5px 0 0 0;
+  }
+  .portfolio .box {
+    margin-bottom: 10px;
+  }
+  .portfolio .box .cidade .media-object {
+    width: 100px;
+    height: 59px;
+  }
+  .portfolio .box .terras .media-object {
+    width: 100px;
+    height: 77px;
+  }
+  .portfolio .box .lagos .media-object {
+    width: 100px;
+    height: 99px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.contato {
+  background-color: #eae9de;
+  padding-top: 83px;
+  padding-bottom: 83px;
+}
+
+.contato h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #391f1b;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
+}
+
+.contato p {
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #9f9252;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  letter-spacing: 2px;
+}
+
+.contato .dt-1 {
+  margin-top: 30px;
+}
+
+.contato .logo {
+  margin-top: 30px;
+}
+
+.contato form {
+  margin-top: 10px;
+}
+
+.contato form .form-control {
+  font-family: 'Montserrat', sans-serif;
+  height: 30px;
+  font-size: 14px;
+  color: #9f9252;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #9f9252;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contato form .form-control::-webkit-input-placeholder {
+  color: #9f9252;
+}
+
+.contato form .form-control::-moz-placeholder {
+  color: #9f9252;
+}
+
+.contato form .form-control:-ms-input-placeholder {
+  color: #9f9252;
+}
+
+.contato form .form-control:-moz-placeholder {
+  color: #9f9252;
+}
+
+.contato form textarea {
+  height: 140px !important;
+}
+
+.contato form .form-group {
+  margin-bottom: 10px;
+}
+
+.contato form .btn_enviar {
+  float: right;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  text-transform: uppercase;
+  background-color: #9f9252;
+  color: #fff;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contato h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .contato p {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 5px 0 0 0;
+  }
+  .contato .dt-1 {
+    margin-top: 10px;
+  }
+  .contato .logo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    max-width: 60%;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.cidadejardim {
+  background: url(../images/bg-produtos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -5px;
+}
+
+.cidadejardim h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #391f1b;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.cidadejardim .leng-h6 {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  background-color: #846c3c;
+  padding: 9px 10px 9px;
+}
+
+.cidadejardim .box-img span {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  display: table;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  padding: 10px;
+}
+
+.cidadejardim .media {
+  margin-top: 30px;
+}
+
+.cidadejardim .media .media-body {
+  vertical-align: middle;
+}
+
+.cidadejardim .media .cidade .media-object {
+  width: 200px;
+  height: 119px;
+}
+
+.cidadejardim .media p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #8b8a8a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px 0 0 0;
+}
+
+.cidadejardim .media a {
+  font-size: 13px;
+  line-height: 13x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 10px 0 0 0;
+  display: table;
+}
+
+.cidadejardim .box {
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .cidadejardim {
+    background: transparent;
+    padding-top: 20px;
+  }
+  .cidadejardim h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .cidadejardim .leng-h6 {
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0 0 0 0;
+  }
+  .cidadejardim .box-img span {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    padding: 7px;
+  }
+  .cidadejardim .box {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .cidadejardim .media {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .cidadejardim .media .cidade .media-object {
+    width: 100px;
+    height: 60px;
+  }
+  .cidadejardim .media p {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 5px 0 0 0;
+  }
+  .cidadejardim .media a {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 5px 8px;
+    margin: 5px 0 0 0;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.terrasdesantacruz {
+  background: url(../images/bg-produtos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -5px;
+}
+
+.terrasdesantacruz h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #391f1b;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.terrasdesantacruz .leng-h6 {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  background-color: #846c3c;
+  padding: 9px 10px 9px;
+}
+
+.terrasdesantacruz .box-img span {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  display: table;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  padding: 10px;
+}
+
+.terrasdesantacruz .media {
+  margin-top: 30px;
+}
+
+.terrasdesantacruz .media .media-body {
+  vertical-align: middle;
+}
+
+.terrasdesantacruz .media .terras .media-object {
+  width: 200px;
+  height: 153px;
+}
+
+.terrasdesantacruz .media p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #8b8a8a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px 0 0 0;
+}
+
+.terrasdesantacruz .media a {
+  font-size: 13px;
+  line-height: 13x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 10px 0 0 0;
+  display: table;
+}
+
+.terrasdesantacruz .box {
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .terrasdesantacruz {
+    background: transparent;
+    padding-top: 20px;
+  }
+  .terrasdesantacruz h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .terrasdesantacruz .leng-h6 {
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0 0 0 0;
+  }
+  .terrasdesantacruz .box-img span {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    padding: 7px;
+  }
+  .terrasdesantacruz .box {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .terrasdesantacruz .media {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .terrasdesantacruz .media .terras .media-object {
+    width: 100px;
+    height: 77px;
+  }
+  .terrasdesantacruz .media p {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 5px 0 0 0;
+  }
+  .terrasdesantacruz .media a {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 5px 8px;
+    margin: 5px 0 0 0;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.lagosdejarinu {
+  background: url(../images/bg-produtos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -5px;
+}
+
+.lagosdejarinu h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #391f1b;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.lagosdejarinu .leng-h6 {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  background-color: #846c3c;
+  padding: 9px 10px 9px;
+}
+
+.lagosdejarinu .box-img span {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  display: table;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  padding: 10px;
+}
+
+.lagosdejarinu .media {
+  margin-top: 30px;
+}
+
+.lagosdejarinu .media .media-body {
+  vertical-align: middle;
+}
+
+.lagosdejarinu .media .terras .media-object {
+  width: 109px;
+  height: 108px;
+}
+
+.lagosdejarinu .media p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #8b8a8a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px 0 0 0;
+}
+
+.lagosdejarinu .media a {
+  font-size: 13px;
+  line-height: 13x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 10px 0 0 0;
+  display: table;
+}
+
+.lagosdejarinu .box {
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .lagosdejarinu {
+    background: transparent;
+    padding-top: 20px;
+  }
+  .lagosdejarinu h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .lagosdejarinu .leng-h6 {
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0 0 0 0;
+  }
+  .lagosdejarinu .box-img span {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    padding: 7px;
+  }
+  .lagosdejarinu .box {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .lagosdejarinu .media {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .lagosdejarinu .media .terras .media-object {
+    width: 100px;
+    height: 99px;
+  }
+  .lagosdejarinu .media p {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 5px 0 0 0;
+  }
+  .lagosdejarinu .media a {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 5px 8px;
+    margin: 5px 0 0 0;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+footer {
+  margin-top: 20px;
+}
+
+footer .container {
+  border-top: solid 1px #7d6b3f;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #7d6b3f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p a {
+  color: #7d6b3f;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=style.css.map */

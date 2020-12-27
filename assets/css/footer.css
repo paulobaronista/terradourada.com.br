@@ -1,0 +1,26 @@
+footer {
+  margin-top: 20px;
+}
+
+footer .container {
+  border-top: solid 1px #7d6b3f;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  color: #7d6b3f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p a {
+  color: #7d6b3f;
+}
+
+/* Extra Small */
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=footer.css.map */

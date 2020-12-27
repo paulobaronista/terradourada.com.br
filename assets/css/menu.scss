@@ -1,0 +1,122 @@
+.menu {
+    width: 100%;
+    background-color: #fff;
+    border-color: transparent;
+    border-radius: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    z-index: 500;
+
+    .nav>li>a {
+        padding: 27px 10px;
+    }
+
+    .navbar-brand {
+        height: auto;
+        padding: 5px 5px;
+    }
+
+    .navbar-nav>li>a {
+        font-size: 17px;
+        line-height: 17px;
+        font-weight: 600;
+        color: #8a8a8a;
+        text-transform: uppercase;
+    }
+
+    .navbar-nav>li>a::before {
+        content: "|";
+        position: absolute;
+        right: -3px;
+        top: 26px;
+        color: #391f1b;
+    }
+
+    .navbar-nav>li:last-child a::before {
+        content: "";
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+    .menu {
+        .nav>li>a {
+            padding: 10px 0px;
+        }
+
+        .navbar-brand {
+            padding: 10px 0 7px;
+
+            img {
+                max-width: 60%;
+            }
+        }
+
+        .navbar-nav>li>a {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        .navbar-nav>li>a::before {
+            content: "";
+        }
+
+        .navbar-toggle {
+            margin-top: 13px;
+            margin-right: 5px;
+            border-color: #8a8a8a;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: #8a8a8a;
+        }
+
+        .navbar-toggle:focus,
+        .navbar-toggle:hover {
+            background-color: #fff;
+        }
+
+        .navbar-collapse,
+        .navbar-form {
+            border-color: transparent;
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .menu {
+        .nav>li>a {
+            padding: 30px 10px;
+        }
+
+        .navbar-brand {
+            padding: 10px 5px;
+
+            img {
+                max-width: 80%;
+            }
+        }
+
+        .navbar-nav>li>a {
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        .navbar-nav>li>a::before {
+            content: "|";
+            position: absolute;
+            right: -2px;
+            top: 30px;
+        }
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

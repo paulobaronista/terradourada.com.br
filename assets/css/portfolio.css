@@ -1,0 +1,104 @@
+.portfolio {
+  padding-top: 83px;
+  padding-bottom: 73px;
+}
+
+.portfolio h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #7d6b3f;
+  margin: 0 0 20px 0;
+}
+
+.portfolio .media-body {
+  vertical-align: middle;
+}
+
+.portfolio p {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 600;
+  color: #391f1b;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+}
+
+.portfolio a {
+  font-size: 13px;
+  line-height: 13x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 5px 0 0 0;
+  display: table;
+}
+
+.portfolio .box {
+  margin-bottom: 20px;
+}
+
+.portfolio .box .media {
+  margin-top: 10px;
+}
+
+.portfolio .box .cidade .media-object {
+  width: 150px;
+  height: 88px;
+}
+
+.portfolio .box .terras .media-object {
+  width: 132px;
+  height: 101px;
+}
+
+.portfolio .box .lagos .media-object {
+  width: 109px;
+  height: 108px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .portfolio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .portfolio h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .portfolio p {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 5px 0 0 0;
+  }
+  .portfolio a {
+    font-size: 10px;
+    line-height: 10x;
+    padding: 5px 8px;
+    margin: 5px 0 0 0;
+  }
+  .portfolio .box {
+    margin-bottom: 10px;
+  }
+  .portfolio .box .cidade .media-object {
+    width: 100px;
+    height: 59px;
+  }
+  .portfolio .box .terras .media-object {
+    width: 100px;
+    height: 77px;
+  }
+  .portfolio .box .lagos .media-object {
+    width: 100px;
+    height: 99px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=portfolio.css.map */

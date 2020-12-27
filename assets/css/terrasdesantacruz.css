@@ -1,0 +1,137 @@
+.terrasdesantacruz {
+  background: url(../images/bg-produtos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -5px;
+}
+
+.terrasdesantacruz h6 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #391f1b;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.terrasdesantacruz .leng-h6 {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 0 0 0;
+  background-color: #846c3c;
+  padding: 9px 10px 9px;
+}
+
+.terrasdesantacruz .box-img span {
+  font-size: 13px;
+  line-height: 13px;
+  font-weight: 600;
+  display: table;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  padding: 10px;
+}
+
+.terrasdesantacruz .media {
+  margin-top: 30px;
+}
+
+.terrasdesantacruz .media .media-body {
+  vertical-align: middle;
+}
+
+.terrasdesantacruz .media .terras .media-object {
+  width: 200px;
+  height: 153px;
+}
+
+.terrasdesantacruz .media p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #8b8a8a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 5px 0 0 0;
+}
+
+.terrasdesantacruz .media a {
+  font-size: 13px;
+  line-height: 13x;
+  font-weight: 500;
+  background-color: #7d6b3f;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin: 10px 0 0 0;
+  display: table;
+}
+
+.terrasdesantacruz .box {
+  margin-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .terrasdesantacruz {
+    background: transparent;
+    padding-top: 20px;
+  }
+  .terrasdesantacruz h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+  .terrasdesantacruz .leng-h6 {
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0 0 0 0;
+  }
+  .terrasdesantacruz .box-img span {
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    padding: 7px;
+  }
+  .terrasdesantacruz .box {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .terrasdesantacruz .media {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .terrasdesantacruz .media .terras .media-object {
+    width: 100px;
+    height: 77px;
+  }
+  .terrasdesantacruz .media p {
+    font-size: 10px;
+    line-height: 13px;
+    margin: 5px 0 0 0;
+  }
+  .terrasdesantacruz .media a {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 5px 8px;
+    margin: 5px 0 0 0;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=terrasdesantacruz.css.map */
