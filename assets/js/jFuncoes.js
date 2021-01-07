@@ -1,23 +1,30 @@
+$(document).ready(function () {
+    $("#lerMais").click(function () {
+        $("#txtMobile").show();
+        $("#lerMais").hide();
+    });
+});
+
 $(document).on('ready', function () {
-	$(".galeria-home").slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-		autoplay: true,
-		autoplaySpeed: 5000,
-	});
-	$(".galeria-lancamento").slick({
-		dots: false,
-		infinite: true,
-		speed: 500,
-	});
+    $(".galeria-home").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 5000,
+    });
+    $(".galeria-lancamento").slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+    });
 });
 
 $(document).ready(function () {
-	$("#close").click(function () {
-		$("#aviso").hide();
-		window.location.href = "https://terradourada.com.br"
-	});
+    $("#close").click(function () {
+        $("#aviso").hide();
+        window.location.href = "https://terradourada.com.br"
+    });
 });
 
 // Script Scroll OnPage
@@ -31,12 +38,9 @@ $(document).ready(function () {
         })
         $(this).addClass('active');
         var target = this.hash,
-            menu = target;
-        $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 500, 'swing', function () {
-            window.location.hash = target;
+            $target = $(target);
+        $('html, body').stop().animate({ scrollTop: $target.offset().top - 70 }, 500, 'swing', function () {
+            // window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
     });
@@ -56,19 +60,25 @@ function onScroll(event) {
     });
 }
 
-$(function(){
-	$('.nome').clear();
-	$('.email').clear();
-	$('.phone').clear();
-	$('.msg').clear();
+$(document).on('ready', function () {
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+});
 
-	$('.btn_enviar').on('click', function(){
-		var n, e, t, m, s;
-		var msg = "";
-		n = $('.nome').val();
-		e = $('.email').val();
-		t = $('.phone').val();
-		m = $('.msg').val();
-		});
+$(function () {
+    $('.nome').clear();
+    $('.email').clear();
+    $('.phone').clear();
+    $('.msg').clear();
+
+    $('.btn_enviar').on('click', function () {
+        var n, e, t, m, s;
+        var msg = "";
+        n = $('.nome').val();
+        e = $('.email').val();
+        t = $('.phone').val();
+        m = $('.msg').val();
+    });
 
 });

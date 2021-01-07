@@ -28,10 +28,8 @@
     <div class="galeria">
         <section class="galeria-home slider">
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Terra Dourada Incorporações">
-            </div>
-            <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-02.jpg" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-04.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-04-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
         </section>
     </div>
@@ -45,10 +43,10 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off box-img">
                     <span>ver todas as fotos</span>
-                    <a href="<?= base_url(); ?>assets/images/terras-01.jpg" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_09.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-01.jpg" alt="Terras de Santa Cruz">
                     </a>
-                    <p class="leng-h6">Condomínio fechado com alamedas e muita diversão</p>
+                    <p class="leng-h6">condomínio fechado com alamedas e muita diversão</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
                     <div class="media">
@@ -57,53 +55,53 @@
                         </div>
                         <div class="media-body">
                             <p>
-                                Condomínio fechado<br>
-                                Alto padrão<br>
-                                residencial
+                                BRAGANÇA PAULISTA-SP<br>
+                                RESIDENCIAL FECHADO<br>
+                                DE ALTO PADRÃO<br>
+                                COM TERRENOS A PARTIR DE 600 M²
                             </p>
-                            <a href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/terras-02.png" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_01.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-02.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/terras-03.png" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_02.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-03.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_03.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-04.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_04.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-05.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_05.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-06.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_06.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-07.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_07.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-08.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-terras">
+                    <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_08.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-09.png" alt="Terras de Santa Cruz">
                     </a>
                 </div>

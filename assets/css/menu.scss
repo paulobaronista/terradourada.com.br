@@ -64,6 +64,11 @@
             content: "";
         }
 
+        .navbar-collapse {
+            border-top: 0px solid transparent;
+            box-shadow: none;
+        }
+
         .navbar-toggle {
             margin-top: 13px;
             margin-right: 5px;

@@ -28,10 +28,8 @@
     <div class="galeria">
         <section class="galeria-home slider">
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Terra Dourada Incorporações">
-            </div>
-            <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-02.jpg" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-03.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-03-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
         </section>
     </div>
@@ -45,10 +43,10 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off box-img">
                     <span>ver todas as fotos</span>
-                    <a href="<?= base_url(); ?>assets/images/lagos-01.jpg" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/lagos-01.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-01.jpg" alt="Lagos de Jarinu">
                     </a>
-                    <p class="leng-h6">Lagos em condomínio fechado e seguro</p>
+                    <p class="leng-h6">UM BOM MERGULHO é sempre uma excelente pedida.</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
                     <div class="media">
@@ -57,53 +55,53 @@
                         </div>
                         <div class="media-body">
                             <p>
-                                Condomínio fechado<br>
-                                Alto padrão<br>
-                                residencial
+                                JARINU -SP<br>
+                                RESIDENCIAL FECHADO<br>
+                                DE ALTO PADRÃO<br>
+                                COM TERRENOS A PARTIR DE 450 M²
                             </p>
-                            <a href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/lagos-02.png" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_01.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-02.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/lagos-03.png" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_02.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-03.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_04.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-04.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_05.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-05.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_06.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-06.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_07.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-07.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_08.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-08.png" alt="Lagos de Jarinu">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-lagos">
+                    <a href="<?= base_url(); ?>assets/images/lagos/Spicycomm_LagodeJarinu_09.jpg" data-lightbox="galeria-lagos">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lagos/lagos-09.png" alt="Lagos de Jarinu">
                     </a>
                 </div>

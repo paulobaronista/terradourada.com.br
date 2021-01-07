@@ -58,6 +58,11 @@
   .menu .navbar-nav > li > a::before {
     content: "";
   }
+  .menu .navbar-collapse {
+    border-top: 0px solid transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
   .menu .navbar-toggle {
     margin-top: 13px;
     margin-right: 5px;

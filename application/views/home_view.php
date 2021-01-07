@@ -28,10 +28,12 @@
     <div class="galeria">
         <section class="galeria-home slider">
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-01.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-02.jpg" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-02.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
         </section>
     </div>
@@ -41,7 +43,10 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <h6>CONSTRUINDO SONHOS. ENTREGANDO CONQUISTAS.</h6>
-                <p>Terra Dourada é uma incorporadora que nasceu para construir sonhos e fazer parte da história de conquistas de milhares e milhares de famílias. Nossos projetos primam pela qualidade, pelo compromisso com prazos e fornecedores e pelo respeito absoluto aos desejos e expectativas de nossos clientes. São empreendimentos de grande sucesso e enorme valorização, criados para oferecer, acima de tudo, uma qualidade de vida superior, com total lazer e absoluta segurança. Para isso, buscamos sempre os melhores terrenos, as Terras Douradas onde nossos clientes irão viver seus momentos de ouro. Nós sabemos que basta uma decisão para que isso aconteça. E estaremos prontos para ajudar a transformar estes sonhos em conquistas inesquecíveis.
+                <p>Terra Dourada é uma incorporadora que nasceu para construir sonhos e fazer parte da história de conquistas de milhares e milhares de famílias. Nossos projetos primam pela qualidade, pelo compromisso com prazos e fornecedores e pelo respeito absoluto aos desejos e expectativas de nossos clientes. <span id="lerMais">Ler mais.</span>
+                    <span id="txtMobile">
+                        São empreendimentos de grande sucesso e enorme valorização, criados para oferecer, acima de tudo, uma qualidade de vida superior, com total lazer e absoluta segurança. Para isso, buscamos sempre os melhores terrenos, as Terras Douradas onde nossos clientes irão viver seus momentos de ouro. Nós sabemos que basta uma decisão para que isso aconteça. E estaremos prontos para ajudar a transformar estes sonhos em conquistas inesquecíveis.
+                    </span>
                 </p>
             </div>
         </div>
@@ -59,10 +64,25 @@
                 <div class="galeria">
                     <section class="galeria-lancamento slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-lancamento-01.jpg" alt="Terra Dourada Incorporações">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-01.jpg" alt="Terra Dourada Incorporações">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-lancamento-01.jpg" alt="Terra Dourada Incorporações">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-02.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-03.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-04.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-05.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-06.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-07.jpg" alt="Terra Dourada Incorporações">
                         </div>
                     </section>
                 </div>
@@ -70,7 +90,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <p>ÁREA COM MAIS DE 260.000 M² DE MUITO VERDE, LAZER, SOFISTICAÇÃO
                     E SEGURANÇA 24 HORAS.</p>
-                <a href="">Saiba mais</a>
+                <a href="http://spicytracking.com.br/reservabothanica/" target="_black">Saiba mais</a>
             </div>
         </div>
     </div>

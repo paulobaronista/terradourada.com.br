@@ -28,10 +28,8 @@
     <div class="galeria">
         <section class="galeria-home slider">
             <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-01.jpg" alt="Terra Dourada Incorporações">
-            </div>
-            <div>
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria-02.jpg" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-01.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
         </section>
     </div>
@@ -45,7 +43,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off box-img">
                     <span>ver todas as fotos</span>
-                    <a href="<?= base_url(); ?>assets/images/cidadejardim-01.jpg" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/cidadejardim-01.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-01.jpg" alt="Cidade Jardim">
                     </a>
                     <p class="leng-h6">MAIS QUALIDADE PARA VOCê e sua família</p>
@@ -64,49 +62,48 @@
                                 INFRAESTRUTURA COMPLETA DE LAZER<br>
                                 ÁREA COMERCIAL COM 6500 M²
                             </p>
-                            <a href="">Saiba mais</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/cidadejardim-02.png" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_02.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-02.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/cidadejardim-03.png" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_03.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-03.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_07.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-04.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_11.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-05.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_12.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-06.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_13.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-07.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_15.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-08.png" alt="Cidade Jardim">
                     </a>
                 </div>
                 <div class="col-xs-4 col-sm-6 col-md-6 box">
-                    <a href="<?= base_url(); ?>assets/images/" data-lightbox="galeria-cidadejardim">
+                    <a href="<?= base_url(); ?>assets/images/cidade/Spicycomm_CidadeJardim_20.jpg" data-lightbox="galeria-cidadejardim">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/cidade/cidadejardim-09.png" alt="Cidade Jardim">
                     </a>
                 </div>

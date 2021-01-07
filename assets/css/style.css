@@ -264,6 +264,11 @@ p {
   .menu .navbar-nav > li > a::before {
     content: "";
   }
+  .menu .navbar-collapse {
+    border-top: 0px solid transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
   .menu .navbar-toggle {
     margin-top: 13px;
     margin-right: 5px;
@@ -312,8 +317,8 @@ p {
 }
 
 .home-texto {
-  padding-top: 83px;
-  padding-bottom: 83px;
+  padding-top: 43px;
+  padding-bottom: 43px;
   margin-top: -5px;
   background-color: #eae9de;
 }
@@ -333,6 +338,12 @@ p {
   font-weight: 600;
   color: #7d6b3f;
   margin: 15px 0 0 0;
+  text-align: justify;
+}
+
+.home-texto p #lerMais {
+  text-decoration: underline;
+  display: none;
 }
 
 /* Extra Small */
@@ -354,6 +365,12 @@ p {
     margin: 7px 0 0 0;
     text-align: justify;
   }
+  .home-texto p #lerMais {
+    display: inline-block;
+  }
+  .home-texto p #txtMobile {
+    display: none;
+  }
 }
 
 /* Small */
@@ -366,8 +383,8 @@ p {
 /* Medium */
 /* Large */
 .lancamento {
-  padding-top: 83px;
-  padding-bottom: 83px;
+  padding-top: 43px;
+  padding-bottom: 43px;
   background-color: #391f1b;
 }
 
@@ -427,8 +444,8 @@ p {
 /* Medium */
 /* Large */
 .portfolio {
-  padding-top: 83px;
-  padding-bottom: 73px;
+  padding-top: 43px;
+  padding-bottom: 33px;
 }
 
 .portfolio h6 {
@@ -531,8 +548,8 @@ p {
 /* Large */
 .contato {
   background-color: #eae9de;
-  padding-top: 83px;
-  padding-bottom: 83px;
+  padding-top: 43px;
+  padding-bottom: 43px;
 }
 
 .contato h6 {
@@ -677,7 +694,7 @@ p {
   line-height: 13px;
   font-weight: 600;
   display: table;
-  background-color: #7d6b3f;
+  background-color: #a99333;
   color: #fff;
   text-transform: uppercase;
   position: absolute;
@@ -813,7 +830,7 @@ p {
   line-height: 13px;
   font-weight: 600;
   display: table;
-  background-color: #7d6b3f;
+  background-color: #a99333;
   color: #fff;
   text-transform: uppercase;
   position: absolute;
@@ -949,7 +966,7 @@ p {
   line-height: 13px;
   font-weight: 600;
   display: table;
-  background-color: #7d6b3f;
+  background-color: #a99333;
   color: #fff;
   text-transform: uppercase;
   position: absolute;
@@ -966,9 +983,9 @@ p {
   vertical-align: middle;
 }
 
-.lagosdejarinu .media .terras .media-object {
-  width: 109px;
-  height: 108px;
+.lagosdejarinu .media .lagos .media-object {
+  width: 169px;
+  height: 168px;
 }
 
 .lagosdejarinu .media p {
@@ -1033,7 +1050,7 @@ p {
     margin-bottom: 20px;
     margin-top: 10px;
   }
-  .lagosdejarinu .media .terras .media-object {
+  .lagosdejarinu .media .lagos .media-object {
     width: 100px;
     height: 99px;
   }

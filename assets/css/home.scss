@@ -3,8 +3,8 @@
 }
 
 .home-texto {
-    padding-top: 83px;
-    padding-bottom: 83px;
+    padding-top: 43px;
+    padding-bottom: 43px;
     margin-top: -5px;
     background-color: #eae9de;
 
@@ -23,6 +23,12 @@
         font-weight: 600;
         color: #7d6b3f;
         margin: 15px 0 0 0;
+        text-align: justify;
+
+        #lerMais {
+            text-decoration: underline;
+            display: none;
+        }
     }
 }
 
@@ -47,6 +53,14 @@
             line-height: 20px;
             margin: 7px 0 0 0;
             text-align: justify;
+
+            #lerMais {
+                display: inline-block;
+            }
+
+            #txtMobile {
+                display: none;
+            }
         }
     }
 }
