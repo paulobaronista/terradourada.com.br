@@ -42,6 +42,8 @@ $route['default_controller'] = "home";
 $route['lagosdejarinu'] = "home/lagosdejarinu";
 $route['cidadejardim'] = "home/cidadejardim";
 $route['terrasdesantacruz'] = "home/terrasdesantacruz";
+$route['politicadeprivacidade'] = "home/politicadeprivacidade";
+$route['politicadecookies'] = "home/politicadecookies";
 $route['404_override'] = '';
 
 /* End of file routes.php */

@@ -39,6 +39,11 @@
   padding: 10px;
 }
 
+.terrasdesantacruz .box-img span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .terrasdesantacruz .media {
   margin-top: 30px;
 }

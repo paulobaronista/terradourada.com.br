@@ -23,8 +23,21 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://terradourada.com.br"
+        window.location.href = "http://terradouradainc.com.br"
     });
+});
+
+$(document).ready(function () {
+	$('#cookies').show();
+	if (window.localStorage.getItem('accept_cookies')) {
+		$('#cookies').hide();
+		return false;
+	}
+	$(".btn_cookie").click(function () {
+		window.localStorage.setItem('accept_cookies', true);
+		$('#cookies').hide();
+		return false;
+	});
 });
 
 // Script Scroll OnPage
@@ -70,15 +83,16 @@ $(function () {
     $('.nome').clear();
     $('.email').clear();
     $('.phone').clear();
+    $('.city').clear();
     $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, t, m, s;
+        var n, e, t, c, m;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
         t = $('.phone').val();
+        c = $('.city').val();
         m = $('.msg').val();
     });
-
 });

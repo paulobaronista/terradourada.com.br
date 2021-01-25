@@ -16,7 +16,7 @@
                         <li><a class="scrollink active" href="#home">Home</a></li>
                         <li><a class="scrollink" href="#empresa">Empresa</a></li>
                         <li><a class="scrollink" href="#lancamentos">Lançamentos</a></li>
-                        <li><a class="scrollink" href="#portfolio">Portfólio</a></li>
+                        <li><a class="scrollink" href="#portfolio">Portfolio</a></li>
                         <li><a class="scrollink" href="#fale-conosco">Fale conosco</a></li>
                     </ul>
                 </div>
@@ -90,7 +90,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <p>ÁREA COM MAIS DE 260.000 M² DE MUITO VERDE, LAZER, SOFISTICAÇÃO
                     E SEGURANÇA 24 HORAS.</p>
-                <a href="http://spicytracking.com.br/reservabothanica/" target="_black">Saiba mais</a>
+                <a href="http://terradouradainc.com.br/reservabothanica/" target="_black">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -137,7 +137,7 @@
                         <img class="media-object" alt="Lagos de Jarinu" src="<?= base_url(); ?>assets/images/logo-lagos-jarinu.jpg" data-holder-rendered="true">
                     </div>
                     <div class="media-body">
-                        <p>JARINU -SP<br>
+                        <p>JARINU-SP<br>
                             RESIDENCIAL FECHADO DE ALTO PADRÃO
                             COM TERRENOS A PARTIR DE 450 M²</p>
                         <a href="<?php echo base_url(); ?>lagosdejarinu">Saiba mais</a>
@@ -187,10 +187,10 @@
                                 <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
                             </div>
                             <div class="form-group">
-                                <input id="telefone" class="phone form-control" type="tel" name="phone" placeholder="Telefone" />
+                                <input id="phone" type="tel" class="phone form-control"  name="phone" placeholder="Telefone" />
                             </div>
                             <div class="form-group">
-                                <input id="cidade" class="phone form-control" type="text" name="cidade" placeholder="Cidade" />
+                                <input id="city" type="text" class="city form-control"  name="city" placeholder="Cidade" />
                             </div>
                             <div class="form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem"></textarea>
@@ -203,6 +203,21 @@
         </div>
     </div>
 </div>
+
+<div id="cookies" class="cookies">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <p>
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos 
+                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="#" class="btn_cookie btn center-block">Aceito</a>
+        </div>
+    </div>
+</div>
+
 <?php
 if (isset($email_enviado))
     echo $email_enviado;

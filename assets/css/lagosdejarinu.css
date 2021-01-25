@@ -39,6 +39,11 @@
   padding: 10px;
 }
 
+.lagosdejarinu .box-img span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .lagosdejarinu .media {
   margin-top: 30px;
 }

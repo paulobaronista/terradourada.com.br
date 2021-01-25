@@ -9,7 +9,7 @@ class Contato extends CI_Controller{
     public function index(){
         $data['title'] = 'Terra Dourada Incorporações';
         $data['description'] = 'Construindo sonhos. Entregando conquistas.';
-        $data['keywords'] = '';
+        $data['keywords'] = 'empreendimentos, valorização, qualidade, vida, lazer, segurança, melhores, terrenos, terras, douradas';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -17,16 +17,17 @@ class Contato extends CI_Controller{
             $nome = $this->input->post('nome');
             $email = $this->input->post('email');
             $telefone = $this->input->post('phone');
+            $city = $this->input->post('city');
             $mensagem = utf8_decode($this->input->post('mss'));
-            $assunto = utf8_decode('Contato enviado pelo site www.terradourada.com.br');
+            $assunto = utf8_decode('Contato enviado pelo site www.terradouradainc.com.br');
 
             $this->load->library('email');
             $config['mailtype'] = 'html';
             $this->email->initialize($config);
 
-            $this->email->from("contato@terradourada.com.br","$nome"); 
-            $this->email->to('contato@terradourada.com.br');
-            $this->email->cc('paulobaronista@gmail.com');
+            $this->email->from("contato@terradouradainc.com.br","Terra Dourada Incorporações"); 
+            $this->email->to('contato@terradouradainc.com.br');
+            $this->email->cc('contato@terradouradainc.com.br, rafael@terradouradainc.com.br, paulobaronista@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -34,8 +35,9 @@ class Contato extends CI_Controller{
             Nome:		{$nome}<br/>
                 E-mail:		{$email}<br/>
                     Telefone:	{$telefone}<br/>
-                        Mensagem:	{$mensagem}<br/>
-                            </body></html>");
+                        Cidade:	    {$city}<br/>
+                            Mensagem:	{$mensagem}<br/>
+                                </body></html>");
 
             if($this->email->send()){
                 redirect('contato/obrigado');
@@ -55,7 +57,7 @@ class Contato extends CI_Controller{
     public function obrigado(){
         $data['title'] = 'Terra Dourada Incorporações';
         $data['description'] = 'Construindo sonhos. Entregando conquistas.';
-        $data['keywords'] = '';
+        $data['keywords'] = 'empreendimentos, valorização, qualidade, vida, lazer, segurança, melhores, terrenos, terras, douradas';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -69,7 +71,7 @@ class Contato extends CI_Controller{
     public function fail(){
         $data['title'] = 'Terra Dourada Incorporações';
         $data['description'] = 'Construindo sonhos. Entregando conquistas.';
-        $data['keywords'] = '';
+        $data['keywords'] = 'empreendimentos, valorização, qualidade, vida, lazer, segurança, melhores, terrenos, terras, douradas';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

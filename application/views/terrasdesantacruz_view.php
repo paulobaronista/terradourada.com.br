@@ -16,7 +16,7 @@
                         <li><a href="<?php echo base_url(); ?>#home">Home</a></li>
                         <li><a href="<?php echo base_url(); ?>#empresa">Empresa</a></li>
                         <li><a href="<?php echo base_url(); ?>#lancamentos">Lançamentos</a></li>
-                        <li><a href="<?php echo base_url(); ?>#portfolio">Portfólio</a></li>
+                        <li><a href="<?php echo base_url(); ?>#portfolio">Portfolio</a></li>
                         <li><a href="<?php echo base_url(); ?>#fale-conosco">Fale conosco</a></li>
                     </ul>
                 </div>
@@ -42,7 +42,7 @@
                     <h6>Terras de santa cruz</h6>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off box-img">
-                    <span>ver todas as fotos</span>
+                    <span><a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_09.jpg" data-lightbox="galeria-terras">ver todas as fotos</a></span>
                     <a href="<?= base_url(); ?>assets/images/terras/Spicycomm_TerrasSantaCruz_09.jpg" data-lightbox="galeria-terras">
                         <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/terras/terras-01.jpg" alt="Terras de Santa Cruz">
                     </a>
@@ -106,6 +106,20 @@
                     </a>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div id="cookies" class="cookies">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <p>
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos 
+                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+            </p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+            <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
 </div>
