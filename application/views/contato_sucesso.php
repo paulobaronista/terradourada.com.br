@@ -32,8 +32,12 @@
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
             <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-02.jpg?1551369906076" alt="Terra Dourada Incorporações">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <a href="http://reservabothanica.com.br/" target="_blank">
+                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-02.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                </a>
+                <a href="http://reservabothanica.com.br/" target="_blank">
+                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                </a>
             </div>
         </section>
     </div>
@@ -90,7 +94,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <p>ÁREA COM MAIS DE 260.000 M² DE MUITO VERDE, LAZER, SOFISTICAÇÃO
                     E SEGURANÇA 24 HORAS.</p>
-                <a href="http://spicytracking.com.br/reservabothanica/" target="_black">Saiba mais</a>
+                <a href="http://reservabothanica.com.br/" target="_black">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -180,17 +184,17 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off">
                     <form method="post" role="form" action="<?php echo base_url("contato") ?>">
                         <div class="group-form">
-                        <div class="form-group">
+                            <div class="form-group">
                                 <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Nome*" />
                             </div>
                             <div class="form-group">
                                 <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
                             </div>
                             <div class="form-group">
-                                <input id="phone" type="tel" class="phone form-control"  name="phone" placeholder="Telefone" />
+                                <input id="phone" type="tel" class="phone form-control" name="phone" placeholder="Telefone" />
                             </div>
                             <div class="form-group">
-                                <input id="city" type="text" class="city form-control"  name="city" placeholder="Cidade" />
+                                <input id="city" type="text" class="city form-control" name="city" placeholder="Cidade" />
                             </div>
                             <div class="form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem"></textarea>
@@ -203,14 +207,11 @@
         </div>
     </div>
 </div>
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
 
 <div id="aviso" class="aviso text-center">
     <div>
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
-        <p>Mensagem enviada com sucesso!</p>
+        <p>Obrigado pelas informações.<br />
+            Já entraremos em contato para um <strong>atendimento exclusivo!</strong></p>
     </div>
 </div>

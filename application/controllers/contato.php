@@ -27,7 +27,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@terradouradainc.com.br","Terra Dourada Incorporações"); 
             $this->email->to('contato@terradouradainc.com.br');
-            $this->email->cc('contato@terradouradainc.com.br, rafael@terradouradainc.com.br, paulobaronista@gmail.com');
+            $this->email->cc('contato@terradouradainc.com.br, rafael@terradouradainc.com.br, paulobaronista@gmail.com, renata@spicycomm.com.br');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>

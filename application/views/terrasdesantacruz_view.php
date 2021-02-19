@@ -29,7 +29,9 @@
         <section class="galeria-home slider">
             <div>
                 <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-04.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block hidden-xs galeria-04-hover" src="<?= base_url(); ?>assets/images/galeria-04-hover.png" alt="Terra Dourada Incorporações">
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-04-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <img class="img-responsive center-block visible-xs galeria-04-hover" src="<?= base_url(); ?>assets/images/galeria-04-mobile-hover.png" alt="Terra Dourada Incorporações">
             </div>
         </section>
     </div>
@@ -114,8 +116,8 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos 
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos
+                <!--<a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a>--> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">

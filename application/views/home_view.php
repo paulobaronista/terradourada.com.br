@@ -32,8 +32,12 @@
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-01-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
             </div>
             <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-02.jpg?1551369906076" alt="Terra Dourada Incorporações">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                <a href="http://reservabothanica.com.br/" target="_blank">
+                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/galeria-02.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                </a>
+                <a href="http://reservabothanica.com.br/" target="_blank">
+                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/galeria-02-mobile.jpg?1551369906076" alt="Terra Dourada Incorporações">
+                </a>
             </div>
         </section>
     </div>
@@ -90,7 +94,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <p>ÁREA COM MAIS DE 260.000 M² DE MUITO VERDE, LAZER, SOFISTICAÇÃO
                     E SEGURANÇA 24 HORAS.</p>
-                <a href="http://terradouradainc.com.br/reservabothanica/" target="_black">Saiba mais</a>
+                <a href="http://reservabothanica.com.br/" target="_black">Saiba mais</a>
             </div>
         </div>
     </div>
@@ -187,10 +191,10 @@
                                 <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Email*" />
                             </div>
                             <div class="form-group">
-                                <input id="phone" type="tel" class="phone form-control"  name="phone" placeholder="Telefone" />
+                                <input id="phone" type="tel" class="phone form-control" name="phone" placeholder="Telefone" />
                             </div>
                             <div class="form-group">
-                                <input id="city" type="text" class="city form-control"  name="city" placeholder="Cidade" />
+                                <input id="city" type="text" class="city form-control" name="city" placeholder="Cidade" />
                             </div>
                             <div class="form-group">
                                 <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" placeholder="Mensagem"></textarea>
@@ -203,13 +207,12 @@
         </div>
     </div>
 </div>
-
 <div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos 
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos
+                <!--<a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições</a>--> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">
