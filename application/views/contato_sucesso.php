@@ -67,7 +67,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="galeria">
                     <section class="galeria-lancamento slider">
-                        <div>
+                    <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-01.jpg" alt="Terra Dourada Incorporações">
                         </div>
                         <div>
@@ -87,6 +87,21 @@
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-07.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-08.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-09.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-10.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-11.jpg" alt="Terra Dourada Incorporações">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lancamentos/galeria-lancamento-12.jpg" alt="Terra Dourada Incorporações">
                         </div>
                     </section>
                 </div>
