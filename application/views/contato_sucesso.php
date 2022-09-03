@@ -40,6 +40,9 @@
                 </a>
             </div>
         </section>
+        <a href="#" data-toggle="modal" data-target="#modalVideo" class="filme">
+	        <button>CLIQUE E ASSISTA AO FILME</button>
+        </a>
     </div>
 </div>
 <div id="empresa" class="container-fluid padding-off home-texto">
