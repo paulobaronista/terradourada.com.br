@@ -1,5 +1,27 @@
 .home {
     padding-top: 73px;
+
+    .galeria {
+        position: relative;
+
+        .filme {
+            position: absolute;
+            bottom: -2%;
+            right: 10%;
+            left: 60%;
+
+            button {
+                background-color: #3e232c;
+                font-family: 'Gotham';
+                font-weight: bold;
+                font-size: 1.7vw;
+                color: #fff;
+                border: none;
+                border-radius: 50px;
+                padding: 1% 5%;
+            }
+        }
+    }
 }
 
 .home-texto {
@@ -37,11 +59,23 @@
 @media(max-width:767px) {
     .home {
         padding-top: 61px;
+
+        .galeria {
+            .filme {
+                left: 25%;
+                bottom: -1%;
+    
+                button {
+                    font-size: 3vw;
+                    padding: 1% 3%;
+                }
+            }
+        }
     }
 
     .home-texto {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
 
         h6 {
             font-size: 17px;
