@@ -240,6 +240,24 @@ p {
   background: #9f9252;
 }
 
+.modalVideo .close {
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -26px;
+  right: -19px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 100px;
+  border: solid 1px #fff;
+  padding: 2px 5px 2px;
+}
+
+.modalVideo .modal-body {
+  padding: 0px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .aviso div {
@@ -255,6 +273,14 @@ p {
   }
   .cookies .box .btn_cookie {
     margin-top: 20px;
+  }
+  .modalVideo .close {
+    top: -26px;
+    right: 0px;
+  }
+  .modalVideo .modal-dialog {
+    width: auto;
+    margin: 30% auto 0;
   }
 }
 /*# sourceMappingURL=base.css.map */
